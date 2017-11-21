@@ -12,6 +12,3 @@
 
 const descendingOrder = n =>
     Number(n.toString().split("").sort().reduce((prev, curr) => curr + prev, ""))
-
-var i = descendingOrder(123456789);
-i
