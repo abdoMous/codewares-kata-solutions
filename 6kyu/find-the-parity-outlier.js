@@ -13,6 +13,3 @@ function findOutlier(integers){
 
     return odds.length === 1 ? odds[0] : evens[0]
 }
-
-const i = findOutlier([1, 2, 3])
-i
